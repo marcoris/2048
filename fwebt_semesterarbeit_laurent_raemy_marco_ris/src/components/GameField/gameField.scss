@@ -1,0 +1,32 @@
+@import "src/assets/scss/variables";
+
+.game-field {
+	background-color: $color-grid;
+  	border-radius: 5px;
+  	margin: 0 auto;
+  	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.empty {
+	align-items: center;
+	border-radius: 5px;
+	color: $color-font-tile-light;
+	display: flex;
+	font-size: 3rem;
+	font-weight: bold;
+	justify-content: center;
+	margin: 10px;
+	height: 6.25rem;
+	width: 6.25rem;
+	background-color: lighten($tile-shadow, 50);
+	box-shadow: inset 0 1px 2px 1px $tile-shadow;
+}
+
+.tile-overlay {
+	position: absolute;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}

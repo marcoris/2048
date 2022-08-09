@@ -1,0 +1,48 @@
+/* COLORNAMES */
+$white: #FFFFFF;
+$black: #000000;
+$mine-shaft: #262626;
+$gallery: #EFEFEF;
+$millbrook: #54452A;
+$akaroa: #D4C4A8;
+$spring-wood: #F9F6F2;
+$bizarre: #EEE4DA;
+$parchment: #EDE0C8;
+$tacao: #F2B179;
+$sandy-brown: #F59563;
+$bittersweet: #F67C5F;
+$flamingo: #F65E3B;
+$pomegranate: #F34016;
+$rocky-spray: #C32C09;
+$alpine: #AF8F2C;
+$silver: #C0C0C0;
+$gold: #FFD700;
+
+/* COLORS */
+$color-font: $mine-shaft;
+$color-modal: $gallery;
+$color-button: $millbrook;
+$color-grid: $akaroa;
+$color-font-tile-dark: $millbrook;
+$color-font-tile-light: $spring-wood;
+$color-value-2: $bizarre;
+$color-value-4: $parchment;
+$color-value-8: $tacao;
+$color-value-16: $sandy-brown;
+$color-value-32: $bittersweet;
+$color-value-64: $flamingo;
+$color-value-128: $pomegranate;
+$color-value-256: $rocky-spray;
+$color-value-512: $alpine;
+$color-value-1024: $silver;
+$color-value-2048: $gold;
+
+/* SHADOW */
+$tile-shadow: rgba($black, .5);
+
+/* BOOTSTRAP OVERRIDES */
+$theme-colors: (
+        "primary": $color-button
+);
+
+@import "bootstrap/scss/bootstrap";

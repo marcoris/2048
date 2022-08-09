@@ -1,0 +1,16 @@
+@import "src/assets/scss/variables";
+
+.btn {
+  padding: 8px 32px !important;
+
+}
+
+.btn-primary {
+  background-color: $color-button !important;
+  border-color: $color-button !important;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  pointer-events: all !important;
+}

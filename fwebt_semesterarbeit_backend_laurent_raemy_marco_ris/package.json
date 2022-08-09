@@ -1,0 +1,9 @@
+{
+  "name": "fwebt_api",
+  "version": "1.0.0",
+  "description": "Simple NodeJS highscore storage server",
+  "main": "controller.js",
+  "scripts": {
+    "start": "node controller.js"
+  }
+}

@@ -1,0 +1,15 @@
+.game-actions {
+  padding: 32px;
+  width: 100%;
+  background: #CCCCCC;
+
+  label {
+    display: block;
+    width: 200px;
+    text-align: left;
+
+    &:not(:last-child) {
+      margin-right: 24px;
+    }
+  }
+}

@@ -1,0 +1,7 @@
+.list-group,
+p.about {
+	text-align: left;
+	li:nth-child(even) {
+		background-color: #CCC;
+	}
+}
